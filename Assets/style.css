@@ -8,7 +8,6 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
     background-color: cornflowerblue;
-    background-blend-mode: hue;
   }
   
   h1, 
@@ -57,9 +56,9 @@ header {
   grid-template-rows: 50% 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
-  project1 project1
-  project2 project3
-  project4 project5;
+  prework study guide prework study guide
+  challenge week 1 project3
+  project4;
 }
 .Prework-Study-Guide {
   grid-area: prework-study-guide;
@@ -67,11 +66,12 @@ header {
 
 .Challenge-Week-1 {
   grid-area: challenge-week-1;
-  width: 20px;
+  
 }
 
 .project-3 {
   grid-area: project3;
+  width: 200px;
 }
 
 .project-4 {
