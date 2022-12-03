@@ -7,6 +7,8 @@
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
+    background-color: cornflowerblue;
+    background-blend-mode: hue;
   }
   
   h1, 
@@ -27,8 +29,8 @@
 }
 
 .sjc {
-  width: 50px;
-  border-radius: 50px;
+  width: 70px;
+  border-radius: 60px;
   overflow: hidden;
 
 }
@@ -38,13 +40,13 @@
 header {
   display: flex;
   justify-content: space-between;
-
+  background-color: #CCCCFF;
 }
 .me {
   display: flex;
 }
 .projects-list .project:nth-child(1) img{
-  width: 500px
+  width: 500px;
 }
 
 .project > img {
@@ -59,4 +61,22 @@ header {
   project2 project3
   project4 project5;
 }
+.project-1 {
+  grid-area: project1;
+}
 
+.project-2 {
+  grid-area: project2;
+}
+
+.project-3 {
+  grid-area: project3;
+}
+
+.project-4 {
+  grid-area: project4;
+}
+
+.page-section {
+  margin-left: 20px 
+}
