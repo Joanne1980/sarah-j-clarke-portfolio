@@ -61,12 +61,13 @@ header {
   project2 project3
   project4 project5;
 }
-.project-1 {
-  grid-area: project1;
+.Prework-Study-Guide {
+  grid-area: prework-study-guide;
 }
 
-.project-2 {
-  grid-area: project2;
+.Challenge-Week-1 {
+  grid-area: challenge-week-1;
+  width: 20px;
 }
 
 .project-3 {
