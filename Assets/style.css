@@ -7,7 +7,7 @@
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
-    background-color: cornflowerblue;
+   
   }
   
   h1, 
@@ -39,7 +39,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #CCCCFF;
+  
 }
 .me {
   display: flex;
@@ -48,30 +48,30 @@ header {
   width: 500px;
 }
 
-.project > img {
+.project img {
   width: 200px;
 }
 .project-list {
   display: grid;
-  grid-template-rows: 50% 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
-  prework study guide prework study guide
-  challenge week 1 project3
-  project4;
+  "preworkstudyguide preworkstudyguide"
+  "challengeweek1 project3"
+  "project4";
 }
-.Prework-Study-Guide {
-  grid-area: prework-study-guide;
+.prework-study-guide {
+  grid-area: preworkstudyguide;
 }
 
-.Challenge-Week-1 {
-  grid-area: challenge-week-1;
-  
+.challenge-week-1 {
+  grid-area: challengeweek1;
+ 
 }
 
 .project-3 {
   grid-area: project3;
-  width: 200px;
+ 
 }
 
 .project-4 {
@@ -79,5 +79,5 @@ header {
 }
 
 .page-section {
-  margin-left: 20px 
+  margin-left: 20px; 
 }
