@@ -8,8 +8,9 @@ The first section is my about me section at the moment I havent got much to say 
 Section two is my work section I currently only have two projects linked and have placeholders in for two as I do not have the work to link up. As I produce more work I will update. 
 Section three is my contact details. 
 
-![alt text](/images/Screenshot1%20(1).png?raw=true)
-![alt text](/images/Screenshot1%20(2).png?raw=true)
+![alt text](/images/screenprint1.png?raw=true)
+![alt text](/images/Screenprint2.png?raw=true)
+![alt text](/images/screenprint3.png?raw=true)
 
 ## Licence.
 MIT Licence added please see Git Hub for details. 
