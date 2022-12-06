@@ -9,7 +9,7 @@ Section two is my work section I currently only have two projects linked and hav
 Section three is my contact details. 
 
 ![alt text](/images/screenprint1.png?raw=true)
-![alt text](/images/Screenprint2.png?raw=true)
+![alt text](/images/screenprint2.png?raw=true)
 ![alt text](/images/screenprint3.png?raw=true)
 
 ## Licence.
