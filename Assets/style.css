@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: lightblue;
   }
   
   body {
@@ -26,34 +27,42 @@
     margin: auto;
     border: 5px;
 }
+  #about {
+    display: inline-block
+  }
+  .hero-banner{
+    margin: 20px;
+  }
 
-.sjc {
-  width: 70px;
-  border-radius: 60px;
+ .sjc {
+  width: 150px;
+  border-radius: 120px;
   overflow: hidden;
+  display: inline-block;
+  margin: 20px;
 
 }
 .sjc img {
   width: 100%;
+ display: inline-block;
 }
 header {
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-between; 
 }
-.me {
-  display: flex;
-}
+
 .projects-list .project:nth-child(1) img{
-  width: 500px;
+  width: 600px;
 }
 
 .project img {
-  width: 200px;
+  width: 300px;
 }
-.project-list {
+
+.projects-list {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  padding: 5px;
+  grid-template-rows: 50% 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
   "preworkstudyguide preworkstudyguide"
@@ -66,7 +75,7 @@ header {
 
 .challenge-week-1 {
   grid-area: challengeweek1;
- 
+  width: 500px
 }
 
 .project-3 {
@@ -81,4 +90,7 @@ header {
 .page-section {
   margin-left: 20px; 
 }
- 
+#contacts {
+  display: flex;
+  justify-content: space-around;
+} 
