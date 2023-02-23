@@ -8,10 +8,17 @@ The first section is my about me section at the moment I havent got much to say 
 Section two is my work section I currently only have two projects linked and have placeholders in for two as I do not have the work to link up. As I produce more work I will update. 
 Section three is my contact details. 
 
-![alt text](/images/screenprint1.png?raw=true)
-![alt text](/images/screenprint2.png?raw=true)
-![alt text](/images/screenprint3.png?raw=true)
+![alt text](/images/sjcportfolio1.png?raw=true)
+![alt text](/images/sjcportfolio2.png?raw=true)
+
 
 ## Licence.
 MIT Licence added please see Git Hub for details. 
 
+## Github repository
+
+https://github.com/Joanne1980/sarah-j-clarke-portfolio
+
+## Depolyed Application
+
+https://joanne1980.github.io/sarah-j-clarke-portfolio/

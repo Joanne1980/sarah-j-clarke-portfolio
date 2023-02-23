@@ -27,13 +27,14 @@
     margin: auto;
     border: 5px;
 }
+  /*about me section*/
   #about {
     display: inline-block
   }
   .hero-banner{
     margin: 20px;
   }
-
+  
  .sjc {
   width: 150px;
   border-radius: 120px;
@@ -42,6 +43,7 @@
   margin: 20px;
 
 }
+/* image in about me*/
 .sjc img {
   width: 100%;
  display: inline-block;
@@ -51,21 +53,24 @@ header {
   justify-content: space-between; 
 }
 
+/*Project section*/
 .projects-list .project:nth-child(1) img{
-  width: 600px;
+  width: 20vw;
+  height: 20vh;
 }
 
 .project img {
-  width: 300px;
+  width: 20vw;
+  height: 20vh;
 }
 
 .projects-list {
   display: grid;
   padding: 5px;
-  grid-template-rows: 50% 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
-  "preworkstudyguide preworkstudyguide"
+  "preworkstudyguide"
   "challengeweek1 project3"
   "project4";
 }
@@ -75,7 +80,7 @@ header {
 
 .challenge-week-1 {
   grid-area: challengeweek1;
-  width: 500px
+  width: 100vh;
 }
 
 .project-3 {
